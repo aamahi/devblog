@@ -13,8 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/',"Frontend\home@index")->name('frontend.home');
 
+//      Auth Route
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//   Frontend route
+Route::get('/',"Frontend\home@index")->name('frontend.home');
+
+
+//      Admin Route
+
+Route::get('/dashboard','Admin\Index@index')->name('admin.index');
