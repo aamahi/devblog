@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2e330eeb-8991-43fa-aee0-60c744be30e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,6 +167,7 @@
       <workItem from="1585091454010" duration="2204000" />
       <workItem from="1585129818096" duration="587000" />
       <workItem from="1585143722908" duration="2301000" />
+      <workItem from="1585172445725" duration="639000" />
     </task>
     <servers />
   </component>
@@ -182,18 +183,22 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="513" y="323" width="399" height="156" key="NewPhpFileDialog/70.27.1296.741@70.27.1296.741" timestamp="1585090052324" />
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585144785123">
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585172461943">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1585144785123" />
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1585172461943" />
+    <state x="170" y="127" width="1096" height="541" key="dock-window-1" timestamp="1585172782818">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="170" y="127" width="1096" height="541" key="dock-window-1/70.27.1296.741@70.27.1296.741" timestamp="1585172782818" />
     <state x="382" y="174" key="run.anything.popup" timestamp="1585145267909">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="382" y="174" key="run.anything.popup/70.27.1296.741@70.27.1296.741" timestamp="1585145267909" />
-    <state x="382" y="40" width="672" height="676" key="search.everywhere.popup" timestamp="1585145878910">
+    <state x="382" y="40" width="672" height="676" key="search.everywhere.popup" timestamp="1585172789997">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="382" y="40" width="672" height="676" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1585145878910" />
+    <state x="382" y="40" width="672" height="676" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1585172789997" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
