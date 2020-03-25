@@ -11,6 +11,8 @@
 
 <!--right slidebar-->
 <script src="{{asset('admin/js/slidebars.min.js')}}"></script>
+{{--toaster js--}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
 
 <!--common script for all pages-->
 <script src="{{asset('admin/js/common-scripts5e1f.js')}}?v=2"></script>
@@ -46,6 +48,27 @@
         owl.reinit();
     });
 
+
+        @if(Session::has('message'))
+            var type = "{{ Session::get('alert-type', 'info') }}";
+            switch(type){
+                case 'info':
+                    toastr.info("{{ Session::get('message') }}");
+                    break;
+
+                case 'warning':
+                    toastr.warning("{{ Session::get('message') }}");
+                    break;
+
+                case 'success':
+                    toastr.success("{{ Session::get('message') }}");
+                    break;
+
+                case 'error':
+                    toastr.error("{{ Session::get('message') }}");
+                    break;
+            }
+    @endif
 </script>
 
 </body>

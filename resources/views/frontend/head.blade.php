@@ -16,5 +16,7 @@
 
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="{{asset('frontend/assets/css/theme-1.css')}}">
+{{--    toaster cs--}}
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css">
 
 </head>
