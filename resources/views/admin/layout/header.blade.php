@@ -3,7 +3,7 @@
         <i class="fa fa-bars"></i>
     </div>
     <!--logo start-->
-    <a href="index.html" class="logo">Dev Blog<span> Mahi</span></a>
+    <a href="{{route('home')}}" class="logo">Mahi<span> Dev</span></a>
     <!--logo end-->
     <div class="nav notify-row" id="top_menu">
         <!--  notification start -->

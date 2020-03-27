@@ -1,4 +1,9 @@
 @extends('admin.main')
+
+@section('page_title')
+    Dashboard
+@endsection
+
 @section('content')
     <section id="main-content">
         <section class="wrapper">

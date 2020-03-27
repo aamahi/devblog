@@ -3,9 +3,16 @@
         <!-- sidebar menu start-->
         <ul class="sidebar-menu" id="nav-accordion">
             <li>
-                <a class="active" href="index.html">
+                <a href="{{route('home')}}">
                     <i class="fa fa-dashboard"></i>
                     <span>Dashboard</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="{{route('category')}}">
+                    <i class="fa fa-briefcase"></i>
+                    <span>Category</span>
                 </a>
             </li>
 

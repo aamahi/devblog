@@ -25,4 +25,5 @@ Route::get('/',"Frontend\home@index")->name('frontend.home');
 //      Admin Route
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/category', 'Category@index')->name('category');
 
