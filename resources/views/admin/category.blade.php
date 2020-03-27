@@ -7,7 +7,7 @@
     <section id="main-content">
         <section class="wrapper">
             <div class="row">
-        <div class="col-lg-12">
+                <div class="col-lg-12">
             <section class="card">
                 <header class="card-header text-center">
                    Add Categoty
@@ -52,7 +52,51 @@
             </section>
 
         </div>
-    </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <section class="card">
+                        <header class="card-header text-center">
+                            All Category
+                            <span class="tools pull-right">
+                                        <a href="javascript:;" class="fa fa-chevron-down"></a>
+                                        <a href="javascript:;" class="fa fa-times"></a>
+                                    </span>
+                        </header>
+                        <div class="card-body">
+                            <div class="adv-table">
+                                <table class="display table table-bordered" id="hidden-table-info">
+                                    <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Category Name</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    @foreach($all_category as $category)
+                                        <tr>
+                                            <td>{{$category->id}}</td>
+                                            <td>{{$category->category_name}}</td>
+                                            <td >
+                                                @if($category->status !=0)
+                                                    <a href="" class="btn btn-success">Active</a>
+                                                @else
+                                                    <a href="" class="btn btn-warning">Deactive</a>
+                                                @endif
+                                            </td>
+                                            <td>{{$category->id}}</td>
+                                        </tr>
+                                    @endforeach
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </section>
     </section>
 @endsection

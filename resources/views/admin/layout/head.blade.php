@@ -20,7 +20,11 @@
 
     <!--right slidebar-->
     <link href="{{asset('admin/css/slidebars.css')}}" rel="stylesheet">
+    <!--dynamic table-->
 
+    <link href="{{asset('/admin/assets/advanced-datatable/media/css/demo_page.css')}}" rel="stylesheet" />
+    <link href="{{asset('/admin/assets/advanced-datatable/media/css/demo_table.css')}}" rel="stylesheet" />
+    <link rel="stylesheet" href="{{asset('/admin/assets/data-tables/DT_bootstrap.css')}}" />
     <!-- Custom styles for this template -->
 
     <link href="{{asset('admin/css/style.css')}}" rel="stylesheet">

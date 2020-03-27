@@ -1,4 +1,8 @@
+
 <script src="{{asset('admin/js/jquery.js')}}"></script>
+
+<script src="{{asset('admin/js/jquery-ui-1.9.2.custom.min.js')}}"></script>
+
 <script src="{{asset('admin/js/bootstrap.bundle.min.js')}}"></script>
 <script class="include" type="text/javascript" src="{{asset('admin/js/jquery.dcjqaccordion.2.7.js')}}"></script>
 <script src="{{asset('admin/js/jquery.scrollTo.min.js')}}"></script>
@@ -21,6 +25,17 @@
 <script src="{{asset('admin/js/sparkline-chart.js')}}"></script>
 <script src="{{asset('admin/js/easy-pie-chart.js')}}"></script>
 <script src="{{asset('admin/js/count.js')}}"></script>
+
+<script type="text/javascript" language="javascript" src="{{asset('admin/assets/advanced-datatable/media/js/jquery.dataTables.js')}}"></script>
+<script type="text/javascript" src="{{asset('admin/assets/data-tables/DT_bootstrap.js')}}"></script>
+
+<script src="{{asset('admin/js/dynamic_table_init.js')}}"></script>
+
+
+
+
+
+
 
 <script>
 
@@ -49,26 +64,7 @@
     });
 
 
-        @if(Session::has('message'))
-            var type = "{{ Session::get('alert-type', 'info') }}";
-            switch(type){
-                case 'info':
-                    toastr.info("{{ Session::get('message') }}");
-                    break;
 
-                case 'warning':
-                    toastr.warning("{{ Session::get('message') }}");
-                    break;
-
-                case 'success':
-                    toastr.success("{{ Session::get('message') }}");
-                    break;
-
-                case 'error':
-                    toastr.error("{{ Session::get('message') }}");
-                    break;
-            }
-    @endif
 </script>
 
 </body>
