@@ -11,20 +11,38 @@
             <section class="card">
                 <header class="card-header text-center">
                    Add Categoty
-                </header>
-                <div class="card-body">
-                    <form>
-                        <div class="form-row align-items-center">
-                            <div class="col-auto col-sm-5">
-                                <label class="sr-only" for="inlineFormInput">Category Name</label>
-                                <input type="text" class="form-control mb-6" id="inlineFormInput" placeholder="Jane Doe">
+                    @if($errors->any())
+                        @foreach($errors->all() as $error)
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                {{$error}}
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
-                            <div class="col-auto col-sm-5">
-                                <label class="sr-only" for="inlineFormInput">Category Name</label>
-                                <input class="form-control mb-6" id="inlineFormInput" value="{{Auth::user()->name}}" disabled>
+                        @endforeach
+                    @endif
+
+                    @if(session()->has('success'))
+
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                {{session('success')}}
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
 
-                            <div class="col-auto col-sm-2">
+                    @endif
+                </header>
+                <div class="card-body">
+                    <form action="{{route('category')}}" method="post">
+                        @csrf
+                        <div class="form-row align-items-center">
+                            <div class="col-auto col-sm-8">
+                                <label class="sr-only" for="category_name">Category Name</label>
+                                <input type="text" class="form-control mb-6" name="category_name" id="category_name" placeholder="Categoy Name">
+                            </div>
+
+                            <div class="col-auto col-sm-4">
                                 <button type="submit" class="btn btn-primary mb-2">Add Category</button>
                             </div>
                         </div>
