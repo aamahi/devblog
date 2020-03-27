@@ -11,7 +11,7 @@
 
             <li>
                 <a href="{{route('category')}}">
-                    <i class="fa fa-briefcase"></i>
+                    <i class="fa fa-list"></i>
                     <span>Category</span>
                 </a>
             </li>
