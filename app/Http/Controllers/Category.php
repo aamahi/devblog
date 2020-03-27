@@ -21,4 +21,18 @@ class Category extends Controller
         return redirect()->back();
     }
 
+    public function deactive_category($id){
+       $deactive_category = \App\Model\Category::find($id);
+       $deactive_category->status = '0';
+       $deactive_category->save();
+       return redirect()->back();
+    }
+
+    public function active_category($id){
+        $active_category = \App\Model\Category::find($id);
+        $active_category->status = '1';
+        $active_category->save();
+        return redirect()->back();
+    }
+
 }
