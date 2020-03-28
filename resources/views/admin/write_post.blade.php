@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('page_title')
-    Category
+   Write Post
 @endsection
 
 @section('content')

@@ -19,6 +19,7 @@ class CreatePostsTable extends Migration
             $table->string('category_id');
             $table->string('author');
             $table->text('post_details');
+            $table->string('status')->default('1');
             $table->string('image');
             $table->timestamps();
         });

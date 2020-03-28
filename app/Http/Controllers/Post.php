@@ -32,4 +32,8 @@ class Post extends Controller
         session()->flash('success',"Post Added Sucessfully !");
         return redirect()->back();
     }
+    public function all_post(){
+        $all_post = \App\Model\Post::with('category')->select('id','category_id','title','post_details','image','status','author','created_at')->get();
+        return view('admin.post',compact('all_post'));
+    }
 }

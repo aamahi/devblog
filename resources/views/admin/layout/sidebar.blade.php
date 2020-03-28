@@ -23,6 +23,7 @@
                 </a>
                 <ul class="sub">
                     <li><a  href="{{route('write_post')}}">Write Post</a></li>
+                    <li><a  href="{{route('all_post')}}">Post</a></li>
                 </ul>
             </li>
             <li class="sub-menu">

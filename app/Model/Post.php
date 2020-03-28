@@ -13,4 +13,8 @@ class Post extends Model
         'post_details',
         'image',
     ];
+
+    public function category(){
+        return $this->hasOne('App\Model\Category','id','category_id');
+    }
 }
