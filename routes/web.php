@@ -36,3 +36,6 @@ Route::get('/active_category/{id}',"Category@active_category")->name('active_cat
 Route::get('/write_post','Post@write_post')->name('write_post');
 Route::post('/write_post','Post@submit_post');
 Route::get('/all_post','Post@all_post')->name('all_post');
+
+Route::get('/deactive_post/{id}',"Post@deactive_post")->name('deactive_post');
+Route::get('/active_post/{id}',"Post@active_post")->name('active_post');

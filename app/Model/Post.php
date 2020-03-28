@@ -17,4 +17,5 @@ class Post extends Model
     public function category(){
         return $this->hasOne('App\Model\Category','id','category_id');
     }
+
 }

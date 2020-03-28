@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\PostRequest;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 
 class Post extends Controller
 {
@@ -30,10 +31,24 @@ class Post extends Controller
         \App\Model\Post::insert([$post]);
 
         session()->flash('success',"Post Added Sucessfully !");
-        return redirect()->back();
+        return redirect()->route('all_post');
     }
     public function all_post(){
         $all_post = \App\Model\Post::with('category')->select('id','category_id','title','post_details','image','status','author','created_at')->get();
         return view('admin.post',compact('all_post'));
+    }
+
+    public function deactive_post($id){
+        $deactive_post =  \App\Model\Post::find($id);
+        $deactive_post->status = '0';
+        $deactive_post->save();
+        return redirect()->back();
+    }
+
+    public function active_post($id){
+        $active_post = \App\Model\Post::find($id);
+        $active_post->status = '1';
+        $active_post->save();
+        return redirect()->back();
     }
 }
