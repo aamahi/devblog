@@ -34,3 +34,4 @@ Route::get('/active_category/{id}',"Category@active_category")->name('active_cat
 //      POST
 
 Route::get('/write_post','Post@write_post')->name('write_post');
+Route::post('/write_post','Post@submit_post');

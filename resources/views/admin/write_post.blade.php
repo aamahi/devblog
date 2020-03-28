@@ -13,8 +13,8 @@
                            Write a Post
                         </header>
                         <div class="card-body">
-                            <form class="form-horizontal tasi-form" method="post">
-
+                            <form class="{{route('write_post')}}" method="post" enctype="multipart/form-data">
+                                @csrf
                                 <div class="form-group row">
                                     <label class="col-sm-2 col-sm-2 control-label"> Title </label>
                                     <div class="col-sm-10">
@@ -31,7 +31,12 @@
                                     <label class="col-sm-2 col-sm-2 control-label"> Category </label>
                                     <div class="col-sm-10">
                                         <select name="category_id" class="form-control">
-                                            <option value="no">Category Name</option>
+                                            <option disabled selected> Select Category </option>
+                                            @foreach($categories as $category)
+                                                @if(($category->status)==1)
+                                                    <option value="{{$category->id}}">{{$category->category_name}}</option>
+                                                @endif
+                                            @endforeach
                                         </select>
                                     </div>
                                 </div>
