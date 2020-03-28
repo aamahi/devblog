@@ -11,6 +11,27 @@
                     <section class="card">
                         <header class="card-header head-border text-center">
                            Write a Post
+                            @if($errors->any())
+                                @foreach($errors->all() as $error)
+                                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                        {{$error}}
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                @endforeach
+                            @endif
+
+                            @if(session()->has('success'))
+
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    {{session('success')}}
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+
+                            @endif
                         </header>
                         <div class="card-body">
                             <form class="{{route('write_post')}}" method="post" enctype="multipart/form-data">
@@ -18,7 +39,7 @@
                                 <div class="form-group row">
                                     <label class="col-sm-2 col-sm-2 control-label"> Title </label>
                                     <div class="col-sm-10">
-                                        <input class="form-control" name="title" type="text" placeholder="Post Title">
+                                        <input class="form-control" name="title" type="text"  value="{{old('title')}}" placeholder="Post Title">
                                     </div>
                                 </div>
                                 <div class="form-group row">
