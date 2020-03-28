@@ -30,3 +30,7 @@ Route::post('/category', 'Category@add_category');
 Route::get('/deactive_category/{id}',"Category@deactive_category")->name('deactive_category');
 Route::get('/active_category/{id}',"Category@active_category")->name('active_category');
 
+
+//      POST
+
+Route::get('/write_post','Post@write_post')->name('write_post');

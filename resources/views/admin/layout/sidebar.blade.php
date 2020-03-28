@@ -18,6 +18,15 @@
 
             <li class="sub-menu">
                 <a href="javascript:;" >
+                    <i class="fa fa-pencil"></i>
+                    <span>Post</span>
+                </a>
+                <ul class="sub">
+                    <li><a  href="{{route('write_post')}}">Write Post</a></li>
+                </ul>
+            </li>
+            <li class="sub-menu">
+                <a href="javascript:;" >
                     <i class="fa fa-laptop"></i>
                     <span>Layouts</span>
                 </a>

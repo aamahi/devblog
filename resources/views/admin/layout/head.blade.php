@@ -20,6 +20,10 @@
 
     <!--right slidebar-->
     <link href="{{asset('admin/css/slidebars.css')}}" rel="stylesheet">
+
+    <link href="{{asset('admin/assets/summernote/dist/summernote.css')}}" rel="stylesheet">
+
+
     <!--dynamic table-->
 
     <link href="{{asset('/admin/assets/advanced-datatable/media/css/demo_page.css')}}" rel="stylesheet" />
