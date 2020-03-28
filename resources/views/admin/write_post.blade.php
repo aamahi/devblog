@@ -42,12 +42,11 @@
                                         <input class="form-control" name="title" type="text"  value="{{old('title')}}" placeholder="Post Title">
                                     </div>
                                 </div>
-                                <div class="form-group row">
-                                    <label class="col-sm-2 col-sm-2 control-label"> Author </label>
-                                    <div class="col-sm-10">
-                                        <input class="form-control" disabled name="author" type="text" value="{{Auth::user()->name}}">
+{{--                                <div class="form-group row">--}}
+                                    <div>
+                                        <input class="form-control" hidden name="author" type="text" value="{{Auth::user()->name}}">
                                     </div>
-                                </div>
+{{--                                </div>--}}
                                 <div class="form-group row">
                                     <label class="col-sm-2 col-sm-2 control-label"> Category </label>
                                     <div class="col-sm-10">

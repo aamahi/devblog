@@ -12,6 +12,7 @@ class Post extends Controller
         return view('admin.write_post',compact('categories'));
     }
     public function submit_post(PostRequest $request){
+//        $author = Auth::user()->name;
         $photo = $request->file('image');
         $data = date('DFYhis');
         $rand_number = rand(1,9);
@@ -19,5 +20,16 @@ class Post extends Controller
         if ($photo->isValid()){
             $photo->storeAs('post',$image);
         }
+        $post =[];
+        $post['title'] =  $request->title;
+        $post['category_id'] =  $request->category_id;
+        $post['author'] =  $request->author;
+        $post['post_details'] =  $request->post_details;
+        $post['image'] =  $image;
+//        print_r($post);
+        \App\Model\Post::insert([$post]);
+
+        session()->flash('success',"Post Added Sucessfully !");
+        return redirect()->back();
     }
 }
