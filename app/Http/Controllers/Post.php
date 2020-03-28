@@ -51,4 +51,8 @@ class Post extends Controller
         $active_post->save();
         return redirect()->back();
     }
+    public function post_details($id){
+        $post_details = \App\Model\Post::find($id);
+        return view('admin.post_details',compact('post_details'));
+    }
 }

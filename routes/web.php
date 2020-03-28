@@ -39,3 +39,4 @@ Route::get('/all_post','Post@all_post')->name('all_post');
 
 Route::get('/deactive_post/{id}',"Post@deactive_post")->name('deactive_post');
 Route::get('/active_post/{id}',"Post@active_post")->name('active_post');
+Route::get('/post_details/{id}',"Post@post_details")->name('post_details');
