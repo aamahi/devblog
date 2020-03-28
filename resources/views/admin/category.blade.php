@@ -87,14 +87,35 @@
                                                 @endif
                                             </td>
                                             <td>
-                                                <a href="{{route('active_category',$category->id)}}" class="btn btn-info">Edit</a>
+                                                <a data-toggle="modal" data-target="#myModal2" href="{{$category->id}}" class="btn btn-info">Edit</a>
+{{--                                                //{{route('active_category',$category->id)}}--}}
                                                 <a href="{{route('active_category',$category->id)}}" class="btn btn-danger">Delete</a>
                                             </td>
                                         </tr>
                                     @endforeach
                                     </tbody>
                                 </table>
+                                <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="myModal2">Modal title</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                ....................
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+{{--                                                <button type="button" class="btn btn-primary">Save changes</button>--}}
+                                                <a href="{{route('home')}}" class="btn btn-primary">Update</a>
+                                            </div>
 
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </section>

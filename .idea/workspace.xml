@@ -5,8 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/header.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +134,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/auth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -176,7 +176,9 @@
       <workItem from="1585172445725" duration="4466000" />
       <workItem from="1585235147740" duration="636000" />
       <workItem from="1585251283911" duration="1757000" />
-      <workItem from="1585331650182" duration="12952000" />
+      <workItem from="1585331650182" duration="13987000" />
+      <workItem from="1585404266947" duration="889000" />
+      <workItem from="1585411290266" duration="2115000" />
     </task>
     <servers />
   </component>
@@ -192,10 +194,10 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="513" y="323" width="399" height="156" key="NewPhpFileDialog/70.27.1296.741@70.27.1296.741" timestamp="1585090052324" />
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585332026443">
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585411289800">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1585332026442" />
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1585411289800" />
     <state x="170" y="127" width="1096" height="541" key="dock-window-1" timestamp="1585172782818">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
@@ -204,10 +206,10 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="382" y="174" key="run.anything.popup/70.27.1296.741@70.27.1296.741" timestamp="1585349309828" />
-    <state x="382" y="40" width="672" height="676" key="search.everywhere.popup" timestamp="1585350680662">
+    <state x="382" y="40" width="672" height="676" key="search.everywhere.popup" timestamp="1585412553369">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="382" y="40" width="672" height="676" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1585350680662" />
+    <state x="382" y="40" width="672" height="676" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1585412553369" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
