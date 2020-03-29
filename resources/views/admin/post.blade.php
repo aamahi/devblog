@@ -50,9 +50,9 @@
                                                 @endif
                                             </td>
                                             <td>
-                                                <a href="{{route('post_details',$post->id)}}" class="btn btn-lg btn-success"> <i class="fa fa-eye"> </i> </a>
-                                                <a href="" class="btn btn-lg btn-info"> <i class="fa fa-edit"> </i> </a>
-                                                <a href="" class="btn btn-lg btn-danger"> <i class="fa fa-trash-o"> </i> </a>
+                                                <a href="{{route('post_details',$post->id)}}" class="btn btn-success"> <i class="fa fa-eye"> </i> </a>
+                                                <a href="" class="btn btn-info"> <i class="fa fa-edit"> </i> </a>
+                                                <a href="" class="btn btn-danger"> <i class="fa fa-trash-o"> </i> </a>
                                             </td>
                                         </tr>
                                      @endforeach

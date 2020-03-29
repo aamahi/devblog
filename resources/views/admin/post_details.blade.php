@@ -24,7 +24,7 @@
                     <ul class="inbox-nav inbox-divider">
 {{--                        <img src="{{asset('Upload/post/'.$post_details->image)}}" width="100%">--}}
                         <li class="active">
-                            <a href="#"><i class="fa fa-clock-o"></i> {{$post_details->created_at}} </a>
+                            <a href="#"><i class="fa fa-clock-o"></i> {{date("jS F, Y",strtotime($post_details->created_at))}} </a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-envelope-o"></i> Comment </a>
@@ -59,7 +59,7 @@
                         </div>
 
                         <div class="view-mail">
-                            <p>{{$post_details->post_details}}</p>
+                            <p>{!! $post_details->post_details !!}</p>
                         </div>
                         <div class="heading-inbox row">
                             <div class="col-md-12">
