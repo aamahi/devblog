@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e330eeb-8991-43fa-aee0-60c744be30e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/frontend_post_details.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/post_details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post_details.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +135,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/frontend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -143,13 +144,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/admin" />
-      <recent name="$PROJECT_DIR$/resources/views/auth" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Model" />
       <recent name="$PROJECT_DIR$/resources/views/frontend" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/frontend" />
+      <recent name="$PROJECT_DIR$/resources/views/admin" />
+      <recent name="$PROJECT_DIR$/resources/views/auth" />
     </key>
   </component>
   <component name="RunManager">
@@ -180,7 +182,7 @@
       <workItem from="1585331650182" duration="13987000" />
       <workItem from="1585404266947" duration="889000" />
       <workItem from="1585411290266" duration="15124000" />
-      <workItem from="1585498446858" duration="4368000" />
+      <workItem from="1585498446858" duration="6853000" />
     </task>
     <servers />
   </component>
@@ -208,14 +210,14 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="170" y="127" width="1096" height="541" key="dock-window-1/70.27.1296.741@70.27.1296.741" timestamp="1585172782818" />
-    <state x="382" y="174" key="run.anything.popup" timestamp="1585349309828">
+    <state x="382" y="174" key="run.anything.popup" timestamp="1585516646280">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="382" y="174" key="run.anything.popup/70.27.1296.741@70.27.1296.741" timestamp="1585349309828" />
-    <state x="382" y="40" width="672" height="676" key="search.everywhere.popup" timestamp="1585514081840">
+    <state x="382" y="174" key="run.anything.popup/70.27.1296.741@70.27.1296.741" timestamp="1585516646280" />
+    <state x="382" y="40" width="672" height="676" key="search.everywhere.popup" timestamp="1585514978088">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="382" y="40" width="672" height="676" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1585514081840" />
+    <state x="382" y="40" width="672" height="676" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1585514978088" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

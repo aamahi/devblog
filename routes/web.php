@@ -20,6 +20,7 @@ Auth::routes();
 
 //   Frontend route
 Route::get('/',"Frontend\home@index")->name('frontend.home');
+Route::get('/frontend_post_details/{id}',"Frontend\home@frontend_post_details")->name('frontend_post_details');
 
 
 //      Admin Route

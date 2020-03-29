@@ -11,7 +11,7 @@
             <div class="profile-section pt-3 pt-lg-0">
                 <img class="profile-image mb-3 rounded-circle mx-auto" src="{{asset('frontend/assets/images/profile.png')}}" alt="image" >
 
-                <div class="bio mb-3">Hi, my name is Anthony Doe. Briefly introduce yourself here. You can also provide a link to the about page.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
+                <div class="bio mb-3">Hi, my name is {{Auth::user()->name}} Briefly introduce yourself here. You can also provide a link to the about page.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
                 <ul class="social-list list-inline py-3 mx-auto">
                     <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
@@ -35,7 +35,7 @@
             </ul>
 
             <div class="my-2 my-md-3">
-                <a class="btn btn-primary" href="https://themes.3rdwavemedia.com/" target="_blank">Get in Touch</a>
+                <a class="btn btn-primary" href="" target="_blank">Get in Touch</a>
             </div>
         </div>
     </nav>

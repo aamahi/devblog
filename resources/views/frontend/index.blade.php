@@ -22,9 +22,9 @@
                         <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="{{asset('Upload/post/'.$post->image)}}" alt="image">
                         <div class="media-body">
                             <h3 class="title mb-1"><a href="blog-post.html">{{$post->title}}</a></h3>
-                            <div class="meta mb-1"> <i class="fa fa-clock-o"> </i> {{date("jS F, Y", strtotime($post->created_at))}} &nbsp  &nbsp  &nbsp   <i class="fa fa-user"> </i> {{$post->author}}  &nbsp  &nbsp  &nbsp<i class="fa fa-tasks"> </i> <a href="#">{{$post->category->category_name}}</a></span></div>
+                            <div class="meta mb-1"> <i class="fa fa-clock-o"> </i> {{date("jS F, Y", strtotime($post->created_at))}} &nbsp  &nbsp  &nbsp   <i class="fa fa-user"> </i> {{$post->author}}  &nbsp  &nbsp  &nbsp<i class="fa fa-tasks"> </i> <a href="#">{{$post->category->category_name}}</a>></div>
                             <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...</div>
-                            <a class="more-link" href="blog-post.html">Read more &rarr; </a>
+                            <a class="btn btn-success  btn-sm" href="{{route('frontend_post_details',$post->id)}}">Details</a>
                         </div><!--//media-body-->
                     </div><!--//media-->
                 </div>
