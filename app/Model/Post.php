@@ -14,6 +14,11 @@ class Post extends Model
         'image',
     ];
 
+//    protected $dates = [
+//        'created_at',
+//        'updated_at',
+//        // your other new column
+//    ];
     public function category(){
         return $this->hasOne('App\Model\Category','id','category_id');
     }

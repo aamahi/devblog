@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e330eeb-8991-43fa-aee0-60c744be30e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/frontend_post_details.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,6 +183,7 @@
       <workItem from="1585404266947" duration="889000" />
       <workItem from="1585411290266" duration="15124000" />
       <workItem from="1585498446858" duration="7453000" />
+      <workItem from="1585569529545" duration="2186000" />
     </task>
     <servers />
   </component>
@@ -194,17 +195,19 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="451" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/70.27.1296.741@70.27.1296.741" timestamp="1585435990011" />
-    <state x="501" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1584654647679">
-      <screen x="70" y="27" width="1296" height="741" />
+    <state x="454" y="153" width="468" height="493" key="FileChooserDialogImpl" timestamp="1585571089659">
+      <screen x="0" y="25" width="1366" height="743" />
     </state>
+    <state x="454" y="153" width="468" height="493" key="FileChooserDialogImpl/0.25.1366.743@0.25.1366.743" timestamp="1585571089659" />
     <state x="501" y="155" width="424" height="491" key="FileChooserDialogImpl/70.27.1296.741@70.27.1296.741" timestamp="1584654647679" />
     <state x="513" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1585090052324">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="513" y="323" width="399" height="156" key="NewPhpFileDialog/70.27.1296.741@70.27.1296.741" timestamp="1585090052324" />
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585498447128">
-      <screen x="70" y="27" width="1296" height="741" />
+    <state x="320" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1585569527722">
+      <screen x="0" y="25" width="1366" height="743" />
     </state>
+    <state x="320" y="224" key="com.intellij.ide.util.TipDialog/0.25.1366.743@0.25.1366.743" timestamp="1585569527722" />
     <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1585498447128" />
     <state x="170" y="127" width="1096" height="541" key="dock-window-1" timestamp="1585172782818">
       <screen x="70" y="27" width="1296" height="741" />
@@ -214,9 +217,10 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="382" y="174" key="run.anything.popup/70.27.1296.741@70.27.1296.741" timestamp="1585516646280" />
-    <state x="382" y="40" width="672" height="676" key="search.everywhere.popup" timestamp="1585514978088">
-      <screen x="70" y="27" width="1296" height="741" />
+    <state x="329" y="38" width="709" height="678" key="search.everywhere.popup" timestamp="1585576478853">
+      <screen x="0" y="25" width="1366" height="743" />
     </state>
+    <state x="329" y="38" width="709" height="678" key="search.everywhere.popup/0.25.1366.743@0.25.1366.743" timestamp="1585576478853" />
     <state x="382" y="40" width="672" height="676" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1585514978088" />
   </component>
   <component name="XDebuggerManager">
