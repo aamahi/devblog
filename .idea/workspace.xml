@@ -4,6 +4,7 @@
     <list default="true" id="2e330eeb-8991-43fa-aee0-60c744be30e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +136,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../register" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -185,6 +186,7 @@
       <workItem from="1585498446858" duration="7453000" />
       <workItem from="1585569529545" duration="4631000" />
       <workItem from="1585603803989" duration="1801000" />
+      <workItem from="1585609570980" duration="56000" />
     </task>
     <servers />
   </component>
@@ -222,10 +224,10 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="382" y="174" key="run.anything.popup/70.27.1296.741@70.27.1296.741" timestamp="1585516646280" />
-    <state x="329" y="38" width="709" height="678" key="search.everywhere.popup" timestamp="1585605273491">
+    <state x="329" y="38" width="709" height="678" key="search.everywhere.popup" timestamp="1585609620322">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="329" y="38" width="709" height="678" key="search.everywhere.popup/0.25.1366.743@0.25.1366.743" timestamp="1585605273491" />
+    <state x="329" y="38" width="709" height="678" key="search.everywhere.popup/0.25.1366.743@0.25.1366.743" timestamp="1585609620322" />
     <state x="382" y="40" width="672" height="676" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1585514978088" />
   </component>
   <component name="XDebuggerManager">
