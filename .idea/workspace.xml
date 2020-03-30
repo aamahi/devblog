@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e330eeb-8991-43fa-aee0-60c744be30e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +119,10 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZMfH57299W6KVi8Nsjv7oB3qEq" />
@@ -183,7 +186,7 @@
       <workItem from="1585404266947" duration="889000" />
       <workItem from="1585411290266" duration="15124000" />
       <workItem from="1585498446858" duration="7453000" />
-      <workItem from="1585569529545" duration="2186000" />
+      <workItem from="1585569529545" duration="4631000" />
     </task>
     <servers />
   </component>
@@ -217,10 +220,10 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="382" y="174" key="run.anything.popup/70.27.1296.741@70.27.1296.741" timestamp="1585516646280" />
-    <state x="329" y="38" width="709" height="678" key="search.everywhere.popup" timestamp="1585576478853">
+    <state x="329" y="38" width="709" height="678" key="search.everywhere.popup" timestamp="1585580973442">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="329" y="38" width="709" height="678" key="search.everywhere.popup/0.25.1366.743@0.25.1366.743" timestamp="1585576478853" />
+    <state x="329" y="38" width="709" height="678" key="search.everywhere.popup/0.25.1366.743@0.25.1366.743" timestamp="1585580973442" />
     <state x="382" y="40" width="672" height="676" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1585514978088" />
   </component>
   <component name="XDebuggerManager">
