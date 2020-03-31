@@ -2,6 +2,10 @@
 
 namespace App\Model;
 
+use App\Events\PostCreated;
+use App\Events\PostDeleted;
+use App\Events\PostUpdated;
+use App\Http\Controllers\Frontend\home;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
@@ -22,5 +26,9 @@ class Post extends Model
     public function category(){
         return $this->hasOne('App\Model\Category','id','category_id');
     }
-
+    protected $dispatchesEvents =[
+        'created'=>  PostCreated::class,
+        'deleted'=>  PostDeleted::class,
+        'updated'=>  PostUpdated::class,
+    ];
 }
