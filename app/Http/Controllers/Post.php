@@ -8,6 +8,11 @@ use Illuminate\Support\Facades\App;
 
 class Post extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function write_post(){
         $categories = \App\Model\Category::select('id','category_name','status')->get();
         return view('admin.write_post',compact('categories'));

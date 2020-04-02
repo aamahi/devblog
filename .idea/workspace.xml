@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2e330eeb-8991-43fa-aee0-60c744be30e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Post.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +188,8 @@
       <workItem from="1585569529545" duration="4631000" />
       <workItem from="1585603803989" duration="1801000" />
       <workItem from="1585609570980" duration="657000" />
-      <workItem from="1585683786053" duration="3328000" />
+      <workItem from="1585683786053" duration="4043000" />
+      <workItem from="1585861606538" duration="337000" />
     </task>
     <servers />
   </component>
@@ -201,10 +202,10 @@
     </state>
     <state x="402" y="153" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1366.743@0.25.1366.743" timestamp="1585685334780" />
     <state x="451" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/70.27.1296.741@70.27.1296.741" timestamp="1585435990011" />
-    <state x="454" y="153" width="468" height="493" key="FileChooserDialogImpl" timestamp="1585605608072">
+    <state x="454" y="153" width="468" height="493" key="FileChooserDialogImpl" timestamp="1585690281470">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="454" y="153" width="468" height="493" key="FileChooserDialogImpl/0.25.1366.743@0.25.1366.743" timestamp="1585605608072" />
+    <state x="454" y="153" width="468" height="493" key="FileChooserDialogImpl/0.25.1366.743@0.25.1366.743" timestamp="1585690281470" />
     <state x="501" y="155" width="424" height="491" key="FileChooserDialogImpl/70.27.1296.741@70.27.1296.741" timestamp="1584654647679" />
     <state x="513" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1585090052324">
       <screen x="70" y="27" width="1296" height="741" />

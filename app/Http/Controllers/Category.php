@@ -6,6 +6,12 @@ use Illuminate\Http\Request;
 
 class Category extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
+
     public function  index(){
 //        $single_category = \App\Model\Category::find($id);
         $all_category = \App\Model\Category::all();
